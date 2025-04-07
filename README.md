@@ -49,3 +49,18 @@ Add this to your MCP configuration file (e.g., `claude_desktop_config.json`):
 }
 ```
 
+## Video Walkthrough
+
+[![Build Your Own MCP Server: Practical Guide with Python SDK and Cursor IDE](https://img.youtube.com/vi/YNe5aYutEPU/0.jpg)](https://www.youtube.com/watch?v=YNe5aYutEPU)
+
+**[Watch: Build Your Own MCP Server: Practical Guide with Python SDK and Cursor IDE](https://www.youtube.com/watch?v=YNe5aYutEPU)**
+
+This video provides context and explanations that complement the code in this repository:
+
+- See the MCP server in action with a practical demonstration in Cursor IDE
+- Understand the design decisions behind the implementation
+- Learn how the different components work together
+- Get insights into how AI models discover and interact with custom tools
+
+If you're looking to understand not just the "what" but the "why" behind this MCP implementation, the video offers a guided tour through the development process and explains the reasoning behind key architectural choices.
+
