@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "finance-mcp"
+version = "0.1.0"
+description = "A minimal MCP server for financial data tools"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp[cli]>=0.1.0",
+    "requests>=2.28.0",
+    "yfinance>=0.2.18",
+]
+
+[project.scripts]
+finance-mcp = "finance_mcp.cli:main"

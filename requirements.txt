@@ -1,0 +1,5 @@
+# Development requirements
+mcp[cli]>=0.1.0
+
+# For editable install
+-e .
